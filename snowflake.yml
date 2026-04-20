@@ -1,0 +1,14 @@
+definition_version: 2
+entities:
+  majors_acq_pipeline:
+    type: streamlit
+    identifier:
+      database: SNOWPUBLIC
+      schema: STREAMLIT
+      name: MAJORS_ACQ_PIPELINE
+    title: "Majors Acquisition - Revenue Projections"
+    query_warehouse: STREAMLIT
+    main_file: "streamlit_app.py"
+    stage: MAJORS_ACQ_STAGE
+    artifacts:
+      - streamlit_app.py
